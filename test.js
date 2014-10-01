@@ -14,3 +14,13 @@ var Logger = utils.Logger;
 
 var log = new Logger('./error.txt');
 log.info('asd');
+
+var parseToJson = common.parseToJson;
+var sjon = { age: '11'};
+var schema = { age: 'number'};
+console.log(  typeof parseToJson(schema, sjon).age );
+
+var parseToJsons = common.parseToJsons;
+var sjons = [ { age: '11'}, {name: 'park', age:'25'} ] ;
+var schema2 = { age: 'number', name: 'string'};
+console.log(  typeof parseToJsons(schema2, sjons)[0].age );
