@@ -24,3 +24,10 @@ var parseToJsons = common.parseToJsons;
 var sjons = [ { age: '11'}, {name: 'park', age:'25'} ] ;
 var schema2 = { age: 'number', name: 'string'};
 console.log(  typeof parseToJsons(schema2, sjons)[0].age );
+
+var isEmptyObject = common.isEmptyObject;
+var obj1 = {};
+var obj2 = {name: 'park'};
+
+console.log(isEmptyObject(obj1))
+console.log(isEmptyObject(obj2))
