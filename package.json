@@ -1,0 +1,14 @@
+{
+  "name": "haru-nodejs-util",
+  "version": "0.0.1",
+  "description": "haru nodejs common utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "syntaxfish",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^0.8.0"
+  }
+}

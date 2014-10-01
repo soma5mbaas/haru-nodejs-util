@@ -1,0 +1,34 @@
+{
+    "console": {
+        "level": "verbose",
+        "colorize": true
+    },
+    "file": {
+        "level": "file",
+        "filename": "defalut.log",
+        "json": false,
+        "colorize": false
+    },
+    "db": {
+
+    },
+    "config": {
+        "levels": {
+            "verbose": 0,
+            "error": 1,
+            "warn": 2,
+            "info": 3,
+            "debug": 4,
+            "file": 5
+        },
+        "colors": {
+            "verbose": "blue",
+            "error": "red",
+            "warn": "yellow",
+            "info": "green",
+            "debug": "red",
+            "file": "white"
+        },
+        "exitOnError": false
+    }   
+}
