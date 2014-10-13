@@ -1,5 +1,11 @@
 {
-	"ACCOUNT_ALREADY_LINKED":  208
+	"ACCOUNT_ALREADY_LINKED": {
+        "status": 401,
+        "info": {
+            "code": 208
+            , "error": "ACCOUNT_ALREADY_LINKED"
+        }
+    }
 	,"CACHE_MISS":  120
 	,"COMMAND_UNAVAILABLE": 108
 	,"CONNECTION_FAILED":   100
