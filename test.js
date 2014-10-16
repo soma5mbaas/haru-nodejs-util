@@ -31,3 +31,8 @@ var obj2 = {name: 'park'};
 
 console.log(isEmptyObject(obj1))
 console.log(isEmptyObject(obj2))
+
+
+var UserSchema = utils.models.User;
+
+console.log(UserSchema.schema);
