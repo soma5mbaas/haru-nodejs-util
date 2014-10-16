@@ -1,6 +1,6 @@
 {
   "name": "haru-nodejs-util",
-  "version": "0.0.17",
+  "version": "0.0.19",
   "description": "haru nodejs common utils",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "author": "syntaxfish <syntaxfish@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "underscore": "^1.7.0",
     "winston": "^0.8.0"
   },
   "engines": {
