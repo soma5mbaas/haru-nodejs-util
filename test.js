@@ -36,3 +36,18 @@ console.log(isEmptyObject(obj2))
 var UserSchema = utils.models.User;
 
 console.log(UserSchema.schema);
+
+
+var obj = {
+    name: 'pcw',
+    array: [1, 2,3],
+    strArray: ['1', '2', '3'],
+    object: {
+        name: 'wer',
+        array: [1,2,3]
+    }
+};
+
+var str = JSON.stringify(obj);
+
+console.log( str );
