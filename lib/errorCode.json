@@ -25,7 +25,13 @@
 	,"INVALID_FILE_NAME":   122
 	,"INVALID_JSON":    107
 	,"INVALID_KEY_NAME":    105
-	,"INVALID_LINKED_SESSION":  251
+	,"INVALID_LINKED_SESSION": {
+        "status": 401,
+        "info": {
+            "code": 251,
+            "error": "INVALID_LINKED_SESSION"
+        }
+    }
 	,"INVALID_NESTED_KEY":  121
 	,"INVALID_POINTER": 106
 	,"INVALID_QUERY":   102
@@ -68,10 +74,22 @@
 	,"PASSWORD_MISSING":    201
 	,"PUSH_MISCONFIGURED":  115
 	,"SCRIPT_ERROR":    141
-	,"SESSION_MISSING": 206
+	,"SESSION_MISSING": {
+        "status": 412,
+        "info": {
+            "code": 206,
+            "error": "SESSION_MISSING"
+        }
+    }
 	,"TIMEOUT": 124
 	,"UNSUPPORTED_SERVICE": 252
 	,"USERNAME_MISSING":    200
 	,"USERNAME_TAKEN":  202
-	,"VALIDATION_ERROR":    142
+	,"VALIDATION_ERROR": {
+        "status": 401,
+        "info": {
+            "code": 142
+            , "error": "VALIDATION_ERROR"
+        }
+    }
 }
