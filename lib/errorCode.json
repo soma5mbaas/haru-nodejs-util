@@ -71,7 +71,13 @@
 			"error": "OTHER_CAUSE"
 		}
 	}
-	,"PASSWORD_MISSING":    201
+	,"PASSWORD_MISSING": {
+        "status": 404,
+        "info": {
+            "code": 201
+            , "error": "PASSWORD_MISSING"
+        }
+    }
 	,"PUSH_MISCONFIGURED":  115
 	,"SCRIPT_ERROR":    141
 	,"SESSION_MISSING": {
@@ -83,7 +89,13 @@
     }
 	,"TIMEOUT": 124
 	,"UNSUPPORTED_SERVICE": 252
-	,"USERNAME_MISSING":    200
+	,"USERNAME_MISSING": {
+        "status": 404,
+        "info": {
+            "code": 200
+            , "error": "USERNAME_MISSING"
+        }
+    }
 	,"USERNAME_TAKEN":  202
 	,"VALIDATION_ERROR": {
         "status": 401,
