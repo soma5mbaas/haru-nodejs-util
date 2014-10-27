@@ -20,7 +20,13 @@
 
 	,"INVALID_ACL": 123
 	,"INVALID_CHANNEL_NAME":    112
-	,"INVALID_CLASS_NAME":  103
+	,"INVALID_CLASS_NAME":{
+	  "status": 401,
+	  "info": {
+		"code": 103,
+		"error": "INVALID_CLASS_NAME"
+	  }
+	}
 	,"INVALID_EMAIL_ADDRESS":   125
 	,"INVALID_FILE_NAME":   122
 	,"INVALID_JSON":    107
