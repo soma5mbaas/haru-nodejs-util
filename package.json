@@ -1,6 +1,6 @@
 {
   "name": "haru-nodejs-util",
-  "version": "0.0.28",
+  "version": "0.0.32",
   "description": "haru nodejs common utils",
   "main": "index.js",
   "scripts": {
