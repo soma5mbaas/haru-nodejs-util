@@ -1,6 +1,6 @@
 {
   "name": "haru-nodejs-util",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "description": "haru nodejs common utils",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "underscore": "^1.7.0",
-    "winston": "^0.8.0"
+    "winston": "^0.8.0",
+    "winston-mongodb": "^0.5.3"
   },
   "engines": {
     "node": "0.10.x"
