@@ -49,6 +49,13 @@
 			, "error": "INVALID_USER_TOKEN"
 		}
 	}
+	,"INVALID_DEVICE_TOKEN": {
+  		"status": 401,
+  		"info": {
+			"code": 144
+	  		,"error": "INVALID_DEVICE_TOKEN"
+	  	}
+	}
 	
 	,"LINKED_ID_MISSING":   250
 	,"MISSING_ENTITY_ID":{
